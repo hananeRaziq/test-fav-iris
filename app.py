@@ -45,6 +45,6 @@ if st.button("Risultato Classificazione"):
 	st.image(setosa) if prediction == 0 else \
     st.image(versicolor) if prediction == 1 else \
     st.image(virginica)
-	st.write('La classe di appartenenza è SETOSA') if prediction == 0 else \
-    st.write('La classe di appartenenza è VERSICOLOR')  if prediction == 1 else \
-    st.write('La classe di appartenenza è VIRGINICA')
+	st.write('La classe di appartenenza è Setosa') if prediction == 0 else \
+    st.write('La classe di appartenenza è Versicolor')  if prediction == 1 else \
+    st.write('La classe di appartenenza è Virginica')
